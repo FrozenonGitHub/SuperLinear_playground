@@ -1,0 +1,36 @@
+# Python
+*.pyc
+__pycache__/
+venv/
+*.env
+calendar-env/
+cvpr-env/
+
+# C++
+*.o
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Credentials
+credentials.json
+token.pickle
+
+# Compiled files
+*.class
+*.jar
+
+# Build directories
+build/
+dist/
+bin/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
