@@ -6,6 +6,19 @@
 $ python3 -m venv calendar-env
 $ source calendar-env/bin/activate
 $ deactivate
+
+[Basic Usage]
+(calendar-env) $ python main.py
+# follow prompt to:
+# Exit | Create an Event | List Events 
+
+- Color of Events:
+  - banana: work
+  - graphite: wasted
+  - lavender: learning
+  - sage: exercise
+  - flamingo: personal growth
+
 ```
 
 ## Q&A
@@ -14,7 +27,8 @@ $ deactivate
   - Internal: when builiding for users within your organization only
   - External: default choice
 - where is `token.pickle`? why should I use it?
-  - downloaded upon first run when permission is granted
+  - automatically downloaded when permission is granted
+  - when expired, remove it manually
   - user doesn't need to re-authorize every time
 
 
