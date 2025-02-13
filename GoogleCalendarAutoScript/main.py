@@ -214,14 +214,14 @@ def delete_event(service, event_id):
 
 def main():
     print("Google Calendar Automation Script")
-    print("Select an option:")
-    print("0. Exit")
-    print("1. Create Event")
-    print("2. List Events")
 
     service = authenticate_google_calendar()
     while True:
         try:
+            print("Select an option:")
+            print("0. Exit")
+            print("1. Create Event")
+            print("2. List Events")
             choice = int(input("Enter your choice (0/1/2): "))
             if choice == 0:
                 print("Exiting. Goodbye!")
